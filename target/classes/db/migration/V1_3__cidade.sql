@@ -1,0 +1,7 @@
+CREATE TABLE `CIDADE` (
+  CODIGO int(11) NOT NULL AUTO_INCREMENT,
+  NOME varchar(100) NOT NULL,
+  CODIGO_IBGE int(11) NOT NULL,
+  ESTADO ENUM('AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MT', 'MS', 'MG', 'PA', 'PB', 'PR', 'PE', 'PI', 'RJ', 'RN', 'RS', 'RO', 'RR', 'SC', 'SP', 'SE', 'TO'),
+  PRIMARY KEY (CODIGO)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
